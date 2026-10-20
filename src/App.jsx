@@ -3,7 +3,7 @@ import { motion, useMotionValue, useReducedMotion, useSpring } from 'motion/reac
 import { createPortal } from 'react-dom'
 import './App.css'
 
-const assets = '/assets/'
+const assets = `${import.meta.env.BASE_URL}assets/`
 const contactEmail = 'siachonngcojustin@gmail.com'
 const githubProfile = 'https://github.com/justin-ric'
 
